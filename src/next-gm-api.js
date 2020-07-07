@@ -30,10 +30,10 @@
     statics: {
       version: '4.10.0',
       apis: {},
-      init: function () {
+      generate: function (inContext) {
         APIS.forEach(function (api) {
           var shortName = api.split('_')[1];
-          this.apis[shortName] = nx.GLOBAL[api];
+          this.apis[shortName] = inContext[api];
         }, this);
         nx.mix(this, this.apis);
       }
