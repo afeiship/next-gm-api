@@ -27,7 +27,7 @@
 
   var API_PRETTY = function () {
     var results = {};
-    apis.forEach(function (api) {
+    APIS.forEach(function (api) {
       var shortName = api.split('_')[1];
       results[shortName] = nx.GLOBAL[api];
     });

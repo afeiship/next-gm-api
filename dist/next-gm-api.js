@@ -3,7 +3,7 @@
  * description: APIs for tampermonkey.
  * homepage: https://github.com/afeiship/next-gm-api
  * version: 1.0.0
- * date: 2020-07-07T22:51:28.101Z
+ * date: 2020-07-07T22:53:34.025Z
  * license: MIT
  */
 
@@ -36,7 +36,7 @@
 
   var API_PRETTY = function () {
     var results = {};
-    apis.forEach(function (api) {
+    APIS.forEach(function (api) {
       var shortName = api.split('_')[1];
       results[shortName] = nx.GLOBAL[api];
     });
@@ -53,5 +53,3 @@
     module.exports = NxGmApi;
   }
 })();
-
-//# sourceMappingURL=next-gm-api.js.map
