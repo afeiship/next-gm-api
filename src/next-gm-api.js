@@ -25,22 +25,19 @@
     "GM_info"
   ];
 
-  var API_PRETTY = function () {
-    var results = {};
-    APIS.forEach(function (api) {
-      var shortName = api.split('_')[1];
-      results[shortName] = nx.GLOBAL[api];
-    });
-    return results;
-  }
 
   var NxGmApi = nx.declare('nx.GmApi', {
-    statics: nx.mix({
+    statics: {
       version: '4.10.0',
-      gets: function () {
-        return API_PRETTY
+      apis: {},
+      init: function () {
+        APIS.forEach(function (api) {
+          var shortName = api.split('_')[1];
+          this.apis[shortName] = nx.GLOBAL[api];
+        }, this);
+        nx.mix(this, this.apis);
       }
-    }, API_PRETTY)
+    }
   });
 
   if (typeof module !== 'undefined' && module.exports) {
