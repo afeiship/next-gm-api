@@ -1,5 +1,5 @@
 # next-gm-api
-> APIs for tampermonkey.
+> APIs for From tampermonkey..
 
 [![version][version-image]][version-url]
 [![license][license-image]][license-url]
@@ -12,29 +12,30 @@ npm install -S @feizheng/next-gm-api
 ```
 
 ## apis
-| api                       | description  |
-| ------------------------- | ------------ |
-| addStyle                  | tampermonkey |
-| deleteValue               | tampermonkey |
-| listValues                | tampermonkey |
-| addValueChangeListener    | tampermonkey |
-| removeValueChangeListener | tampermonkey |
-| setValue                  | tampermonkey |
-| getValue                  | tampermonkey |
-| log                       | tampermonkey |
-| getResourceText           | tampermonkey |
-| getResourceURL            | tampermonkey |
-| registerMenuCommand       | tampermonkey |
-| unregisterMenuCommand     | tampermonkey |
-| openInTab                 | tampermonkey |
-| xmlhttpRequest            | tampermonkey |
-| download                  | tampermonkey |
-| getTab                    | tampermonkey |
-| saveTab                   | tampermonkey |
-| getTabs                   | tampermonkey |
-| notification              | tampermonkey |
-| setClipboard              | tampermonkey |
-| info                      | tampermonkey |
+| api                       | description        |
+| ------------------------- | ------------------ |
+| `gets`                    | Get all the apis.  |
+| addStyle                  | From tampermonkey. |
+| deleteValue               | From tampermonkey. |
+| listValues                | From tampermonkey. |
+| addValueChangeListener    | From tampermonkey. |
+| removeValueChangeListener | From tampermonkey. |
+| setValue                  | From tampermonkey. |
+| getValue                  | From tampermonkey. |
+| log                       | From tampermonkey. |
+| getResourceText           | From tampermonkey. |
+| getResourceURL            | From tampermonkey. |
+| registerMenuCommand       | From tampermonkey. |
+| unregisterMenuCommand     | From tampermonkey. |
+| openInTab                 | From tampermonkey. |
+| xmlhttpRequest            | From tampermonkey. |
+| download                  | From tampermonkey. |
+| getTab                    | From tampermonkey. |
+| saveTab                   | From tampermonkey. |
+| getTabs                   | From tampermonkey. |
+| notification              | From tampermonkey. |
+| setClipboard              | From tampermonkey. |
+| info                      | From tampermonkey. |
 
 ## usage
 ```js
@@ -62,11 +63,11 @@ npm install -S @feizheng/next-gm-api
 
 import NxGmApi from '@feizheng/next-gm-api';
 
-NxGmApi.log('hello tampermonkey~');
+NxGmApi.log('hello From tampermonkey.~');
 ```
 
 ## resources
-- https://www.tampermonkey.net/documentation.php
+- https://www.From tampermonkey..net/documentation.php
 
 ## license
 Code released under [the MIT license](https://github.com/afeiship/next-gm-api/blob/master/LICENSE.txt).

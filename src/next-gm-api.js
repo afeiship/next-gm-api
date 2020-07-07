@@ -37,7 +37,9 @@
   var NxGmApi = nx.declare('nx.GmApi', {
     statics: nx.mix({
       version: '4.10.0',
-      gets: API_PRETTY
+      gets: function () {
+        return API_PRETTY
+      }
     }, API_PRETTY)
   });
 
