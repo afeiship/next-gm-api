@@ -29,13 +29,13 @@
   var NxGmApi = nx.declare('nx.GmApi', {
     statics: {
       version: '4.10.0',
-      apis: {},
       generate: function (inContext) {
+        var results = {};
         APIS.forEach(function (api) {
           var shortName = api.split('_')[1];
-          this.apis[shortName] = inContext[api];
-        }, this);
-        nx.mix(this, this.apis);
+          results[shortName] = inContext[api];
+        });
+        return results;
       }
     }
   });
