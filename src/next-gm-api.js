@@ -29,9 +29,6 @@
   var NxGmApi = nx.declare('nx.GmApi', {
     statics: {
       version: '4.10.0',
-      init: function () {
-        nx.mix(this, this.generate(nx.GLOBAL));
-      },
       generate: function (inContext) {
         var results = {};
         APIS.forEach(function (api) {
