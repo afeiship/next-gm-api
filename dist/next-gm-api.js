@@ -2,8 +2,8 @@
  * name: @feizheng/next-gm-api
  * description: APIs for tampermonkey.
  * homepage: https://github.com/afeiship/next-gm-api
- * version: 1.0.4
- * date: 2020-07-08T00:18:21.730Z
+ * version: 1.0.5
+ * date: 2020-07-08T00:30:32.278Z
  * license: MIT
  */
 
@@ -38,6 +38,9 @@
   var NxGmApi = nx.declare('nx.GmApi', {
     statics: {
       version: '4.10.0',
+      init: function () {
+        nx.mix(this, this.generate(nx.GLOBAL));
+      },
       generate: function (inContext) {
         var results = {};
         APIS.forEach(function (api) {
