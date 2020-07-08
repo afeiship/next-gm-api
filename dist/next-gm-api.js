@@ -2,8 +2,8 @@
  * name: @feizheng/next-gm-api
  * description: APIs for tampermonkey.
  * homepage: https://github.com/afeiship/next-gm-api
- * version: 1.0.6
- * date: 2020-07-08T00:39:43.698Z
+ * version: 1.0.7
+ * date: 2020-07-08T00:51:29.970Z
  * license: MIT
  */
 
@@ -42,8 +42,8 @@
         var results = {};
         APIS.forEach(function (api) {
           var shortName = api.split('_')[1];
-          results[shortName] = inContext[api];
-        });
+          this[shortName] = results[shortName] = inContext[api];
+        }, this);
         return results;
       }
     }

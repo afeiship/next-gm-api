@@ -33,8 +33,8 @@
         var results = {};
         APIS.forEach(function (api) {
           var shortName = api.split('_')[1];
-          results[shortName] = inContext[api];
-        });
+          this[shortName] = results[shortName] = inContext[api];
+        }, this);
         return results;
       }
     }
