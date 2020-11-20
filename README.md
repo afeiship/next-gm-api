@@ -1,5 +1,5 @@
 # next-gm-api
-> APIs for From tampermonkey..
+> APIs for tampermonkey.
 
 [![version][version-image]][version-url]
 [![license][license-image]][license-url]
@@ -8,7 +8,7 @@
 
 ## installation
 ```bash
-npm install -S @feizheng/next-gm-api
+npm install -S @jswork/next-gm-api
 ```
 
 ## apis
@@ -72,14 +72,14 @@ NxGmApi.log('hello From tampermonkey.~');
 ## license
 Code released under [the MIT license](https://github.com/afeiship/next-gm-api/blob/master/LICENSE.txt).
 
-[version-image]: https://img.shields.io/npm/v/@feizheng/next-gm-api
-[version-url]: https://npmjs.org/package/@feizheng/next-gm-api
+[version-image]: https://img.shields.io/npm/v/@jswork/next-gm-api
+[version-url]: https://npmjs.org/package/@jswork/next-gm-api
 
-[license-image]: https://img.shields.io/npm/l/@feizheng/next-gm-api
+[license-image]: https://img.shields.io/npm/l/@jswork/next-gm-api
 [license-url]: https://github.com/afeiship/next-gm-api/blob/master/LICENSE.txt
 
-[size-image]: https://img.shields.io/bundlephobia/minzip/@feizheng/next-gm-api
+[size-image]: https://img.shields.io/bundlephobia/minzip/@jswork/next-gm-api
 [size-url]: https://github.com/afeiship/next-gm-api/blob/master/dist/next-gm-api.min.js
 
-[download-image]: https://img.shields.io/npm/dm/@feizheng/next-gm-api
-[download-url]: https://www.npmjs.com/package/@feizheng/next-gm-api
+[download-image]: https://img.shields.io/npm/dm/@jswork/next-gm-api
+[download-url]: https://www.npmjs.com/package/@jswork/next-gm-api
