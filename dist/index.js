@@ -2,13 +2,13 @@
  * name: @jswork/next-gm-api
  * description: APIs for tampermonkey.
  * homepage: https://github.com/afeiship/next-gm-api
- * version: 1.0.0
- * date: 2020-11-20 15:46:26
+ * version: 1.0.1
+ * date: 2021-01-06 21:34:37
  * license: MIT
  */
 
 (function() {
-  var global = global || this || window || Function('return this')();
+  var global = global || window || Function('return this')();
   var nx = global.nx || require('@jswork/next');
 
   var APIS = [

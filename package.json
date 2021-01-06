@@ -1,6 +1,6 @@
 {
   "name": "@jswork/next-gm-api",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "APIs for tampermonkey.",
   "homepage": "https://github.com/afeiship/next-gm-api",
   "author": {
@@ -34,5 +34,11 @@
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org"
-  }
+  },
+  "keywords": [
+    "next",
+    "gm",
+    "api",
+    "tampermonkey"
+  ]
 }
