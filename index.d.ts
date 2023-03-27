@@ -1,0 +1,3 @@
+interface NxStatic {
+  GmApi: any;
+}

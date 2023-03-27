@@ -13,7 +13,7 @@ npm install -S @jswork/next-gm-api
 
 ## apis
 | api                       | description        |
-| ------------------------- | ------------------ |
+|---------------------------|--------------------|
 | `gets`                    | Get all the apis.  |
 | addStyle                  | From tampermonkey. |
 | deleteValue               | From tampermonkey. |
@@ -36,6 +36,7 @@ npm install -S @jswork/next-gm-api
 | notification              | From tampermonkey. |
 | setClipboard              | From tampermonkey. |
 | info                      | From tampermonkey. |
+| cookie                    | From tampermonkey. |
 
 ## usage
 ```js
@@ -60,6 +61,7 @@ npm install -S @jswork/next-gm-api
 // @grant GM_notification
 // @grant GM_setClipboard
 // @grant GM_info
+// @grant GM_cookie
 
 import NxGmApi from '@feizheng/next-gm-api';
 
